@@ -1,0 +1,32 @@
+
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 350px;
+}
+
+.container h3{
+  font-size: 30px;
+  padding:20px;
+}
+
+td{
+  width: 100px;
+  height: 100px;
+  background: rgb(79, 159, 238);
+  color: #fff;
+  cursor: pointer;
+  font-size: 80px;
+  user-select: none;
+}
+
+td:hover{
+  background: rgba(79, 159, 238, 0.5);
+}
+
